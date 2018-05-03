@@ -31,4 +31,12 @@ public class HeadlessResource<T> extends ResourceSupport {
         this.content = content;
         this.add(links);
     }
+
+    public T getContent() {
+        return content;
+    }
+
+    public void setContent(T content) {
+        this.content = content;
+    }
 }
